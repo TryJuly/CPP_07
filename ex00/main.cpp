@@ -6,7 +6,7 @@
 /*   By: strieste <strieste@student.42.ch>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/24 11:25:49 by strieste          #+#    #+#             */
-/*   Updated: 2026/03/24 14:49:46 by strieste         ###   ########.fr       */
+/*   Updated: 2026/03/25 07:30:30 by strieste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,29 +33,4 @@ int main( void )
 	std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
 	
 	return 0;
-}
-
-template <typename T>
-void swap(T x, T y)
-{
-	T	tmp = x;
-	x = y;
-	y = tmp;
-	return ;
-}
-
-template <typename T>
-T min(T x, T y)
-{
-	if (x < y)
-		return (x);
-	return (y);
-}
-
-template <typename T>
-T max(T x, T y)
-{
-	if (x > y)
-		return (x);
-	return (y);
 }
