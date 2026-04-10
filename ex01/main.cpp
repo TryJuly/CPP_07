@@ -6,7 +6,7 @@
 /*   By: strieste <strieste@student.42.ch>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/24 13:55:29 by strieste          #+#    #+#             */
-/*   Updated: 2026/03/25 09:03:21 by strieste         ###   ########.fr       */
+/*   Updated: 2026/04/10 08:06:13 by strieste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,8 @@ int	main(void)
 
 	int const length = 3;
 	int	arrayInt[] = {11, 12, 13};
-	// int	arrayIntConst[] = {11, 12, 13};
 	char	arrayChar[] = {'c', 'b', 'd'};
-	// char	arrayCharConst[] = {'c', 'b', 'd'};
 	std::string	arrayStr[3] = {"Hello", "My name", "Is Francis"};
-	// std::string const	arrayStrConst[3] = {"Hello", "My name", "Is Francis"};
 
 	iter(arrayInt, length, &MyIntConstFunction);
 	iter(arrayInt, length, &MyIntFunction);

@@ -6,7 +6,7 @@
 /*   By: strieste <strieste@student.42.ch>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/24 11:24:36 by strieste          #+#    #+#             */
-/*   Updated: 2026/03/25 07:30:35 by strieste         ###   ########.fr       */
+/*   Updated: 2026/04/10 07:45:44 by strieste         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define WHATEVER_HPP
 
 template <typename T>
-void swap(T x, T y)
+void swap(T& x, T& y)
 {
 	T	tmp = x;
 	x = y;
